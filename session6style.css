@@ -1,0 +1,70 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+/* #home {
+    background-image: url(./HOME-photo.png);
+    height: 600px;
+    background-size: 100%;
+    background-image: 100%;
+} */
+#home .navbar{
+    height: 30px;
+    background-color: white;
+    padding: 10px;
+}
+#home .navbar .nav-logo img{
+    width: 60px;
+    float: left;
+}
+#home .navbar .nav-menu{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#home .navbar .nav-menu li{
+    display: inline-block;
+}
+#home .navbar .nav-menu li a{
+    text-decoration: none;
+    color: black;
+    padding-left: 10px;
+}
+#home .caption {
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    padding: 30px;
+    color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.caption{
+    position: relative;
+    margin-top: 20px;
+}
+.bigimg{
+    position: absolute;
+    top:290px;
+    left:700px;
+    font-size: x-large;
+}
+.innertext {
+    position: absolute;
+    padding-right: 5px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.img{
+    position: relative;
+}
+.text{
+    position: absolute;
+    top:0px;
+    left:0px;
+}
